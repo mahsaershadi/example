@@ -1,0 +1,7 @@
+<h1>Welcome to the Express Blog</h1>
+<p>Join us to create and share your thoughts!</p>
+{{#if userId}}
+  <p>You are logged in. <a href="/posts">Go to Dashboard</a></p>
+{{else}}
+  <p>Please <a href="/login">login</a> or <a href="/register">register</a> to get started.</p>
+{{/if}}
